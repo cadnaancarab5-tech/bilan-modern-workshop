@@ -109,3 +109,41 @@ img {
   max-width: 100%;
   height: auto;
 }
+/* Responsive improvements */
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+button,
+.btn {
+  cursor: pointer;
+}
+
+@media (max-width: 768px) {
+  body {
+    overflow-x: hidden;
+  }
+
+  h1 {
+    font-size: clamp(2rem, 8vw, 3rem);
+    line-height: 1.15;
+  }
+
+  img {
+    height: auto;
+  }
+
+  button,
+  .btn {
+    max-width: 100%;
+  }
+}
