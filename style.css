@@ -1,0 +1,72 @@
+/* Custom Styles for Bilan Modern Work Shop */
+
+@layer base {
+  html {
+    font-family: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+  }
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 9px;
+}
+::-webkit-scrollbar-track {
+  background: #0f172a;
+}
+::-webkit-scrollbar-thumb {
+  background: #334155;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #2563eb;
+}
+
+/* Smooth transitions */
+.service-card {
+  transition: all 0.25s cubic-bezier(0.4, 0, 0.2, 1);
+}
+.service-card:hover {
+  transform: translateY(-2px);
+}
+
+.service-feature-card {
+  transition: all 0.35s cubic-bezier(0.4, 0, 0.2, 1);
+}
+.service-feature-card:hover {
+  transform: translateY(-6px);
+}
+
+/* Floating button animation */
+@keyframes softPulse {
+  0%, 100% {
+    box-shadow: 0 0 0 0 rgba(37, 211, 102, 0.7);
+  }
+  50% {
+    box-shadow: 0 0 0 14px rgba(37, 211, 102, 0);
+  }
+}
+
+.animate-pulse-whatsapp {
+  animation: softPulse 2.5s infinite;
+}
+
+/* Subtle card glows */
+.glass-glow {
+  box-shadow: 0 20px 40px -15px rgba(30, 64, 175, 0.15);
+}
+
+/* Print Invoice styles */
+@media print {
+  body * {
+    visibility: hidden;
+  }
+  #projectListCard, #projectListCard * {
+    visibility: visible;
+  }
+  #projectListCard {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+  }
+}

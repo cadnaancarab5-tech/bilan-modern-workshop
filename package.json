@@ -1,0 +1,22 @@
+{
+  "name": "bilan-modern-workshop",
+  "version": "1.0.0",
+  "description": "Bilan Modern Workshop Desktop Application",
+  "main": "main-electron.js",
+  "scripts": {
+    "start": "electron .",
+    "app": "Start-App.bat"
+  },
+  "keywords": [
+    "aluminium",
+    "pvc",
+    "decoration",
+    "workshop",
+    "mogadishu"
+  ],
+  "author": "Bilan Modern Workshop",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^33.2.0"
+  }
+}
