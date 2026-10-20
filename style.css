@@ -147,3 +147,45 @@ button,
     max-width: 100%;
   }
 }
+/* Bilan Modern Workshop improvements */
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+}
+
+button, a {
+  transition: all 0.3s ease;
+}
+
+button:hover, a:hover {
+  opacity: 0.85;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 12px;
+}
+/* Bilan Modern Workshop improvements */
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.7;
+}
+
+button, a {
+  transition: all 0.3s ease;
+}
+
+button:hover, a:hover {
+  opacity: 0.85;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 12px;
+}
+
+h1, h2, h3 {
+  line-height: 1.3;
+}
