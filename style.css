@@ -70,3 +70,42 @@
     width: 100%;
   }
 }
+/* Bilan Modern Workshop - Design Upgrade */
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  line-height: 1.7;
+}
+
+h1, h2, h3 {
+  letter-spacing: -0.5px;
+}
+
+button, .btn, a {
+  transition: all 0.25s ease;
+}
+
+button:hover, .btn:hover {
+  transform: translateY(-2px);
+}
+
+.service-card,
+.service-feature-card {
+  border-radius: 14px;
+  transition: transform 0.25s ease,
+              box-shadow 0.25s ease;
+}
+
+.service-card:hover,
+.service-feature-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 12px 28px rgba(0, 0, 0, 0.18);
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
